@@ -17,11 +17,11 @@ var requireDir = require('require-dir');
 // Specify paths & globbing patterns for tasks.
 global.paths = {
   // HTML sources.
-  'html': './src/*.html',
+  'html': 'src/*.html',
   // JS sources.
-  'js': './src/js/**/*.js',
+  'js': 'src/js/**/*.js',
   // SASS sources.
-  'sass': './src/scss/**/*.scss',
+  'sass': 'src/scss/**/*.scss',
   // Image sources.
   'img': './src/img/*',
   // Sources folder.
